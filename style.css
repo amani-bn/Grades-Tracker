@@ -1,0 +1,53 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    background-image: url('school.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto';
+    /* width: 100%; */
+}
+header{
+    background-color: black;
+    height:100px;
+}
+h1{
+    color:white;
+    text-align: center;
+    padding: 25px;
+    font-weight:bolder;
+}
+
+
+table{
+    border:3px solid rgb(92, 2, 17);
+    border-collapse: collapse;
+}
+td{
+    border:3px solid rgb(92, 2, 17);
+    background: gray;
+    color:white;
+}
+th{
+    background: rgb(37, 37, 37);
+    border:3px solid rgb(92, 2, 17);
+}
+
+
+.maincont{
+display: flex;
+}
+.item{
+    background:rgb(4, 112, 103);
+    margin:50px;
+    padding: 70px;
+}
+#sub{
+    background: rgb(36, 36, 36);
+    color:white;
+    width: 150px;
+    padding:5px;
+}
